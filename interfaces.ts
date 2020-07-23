@@ -10,7 +10,7 @@ const oldVehicle = {
   year: 2000,
   broken: true,
   summary(): string {
-    return this.name;
+    return `${this.name}`;
   },
 };
 
